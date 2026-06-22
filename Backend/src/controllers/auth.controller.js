@@ -2,7 +2,7 @@ const UserModel = require("../model/user.model");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const tokenBlacklistModel = require("../model/blacklist.model");
-const userModel = require("../model/user.model");
+
 
 require("dotenv").config();
 
@@ -163,7 +163,7 @@ async function logoutUserController(req, res) {
  */
 
 async function getMeController(req, res) {
-  const user = await userModel.findById(req.user.id);
+  const user = await UserModel.findById(req.user.id);
 
   res.status(200).json({
     user: {
