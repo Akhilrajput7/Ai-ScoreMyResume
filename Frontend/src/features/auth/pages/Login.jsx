@@ -3,8 +3,10 @@ import { Link } from "react-router";
 import { useAuth } from "../hooks/useAuth";
 import { useState } from "react";
 
+
 const Login = () => {
   const { loading, handleLogin } = useAuth();
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
