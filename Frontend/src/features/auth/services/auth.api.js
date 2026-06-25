@@ -14,6 +14,7 @@ export async function register({ userName, email, password }) {
     });
 
     return response.data;
+
   } catch (error) {
     console.log(error);
   }
@@ -25,7 +26,7 @@ export async function login({ email, password }) {
       email,
       password,
     });
-    console.log(response.data);
+    // console.log(response.data);
     return response.data;
   } catch (error) {
     console.log(error);
@@ -44,7 +45,7 @@ export async function logout() {
 
 export async function getMe() {
   try {
-    const response = api.get("http://localhost:3000/api/auth/get-me");
+    const response = await api.get("/api/auth/get-me");
 
     return response.data;
   } catch (error) {
