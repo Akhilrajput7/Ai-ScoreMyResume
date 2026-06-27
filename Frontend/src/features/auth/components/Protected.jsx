@@ -13,13 +13,13 @@ const Protected = ({children}) => {
     return(<h1>Loading</h1>)
   }
 
-  //  console.log(user)
 
     if(!user){
-       return <Navigate to="/" />
+       return <Navigate to="/login" />
     }
 
-  return children
+
+  return children;
 }
 
 export default Protected

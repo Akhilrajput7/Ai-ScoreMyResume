@@ -13,6 +13,7 @@ export const useAuth = () => {
 
       setUser(data.user);
     } catch (err) {
+      console.error("Login error:", err);
     } finally {
       setLoading(false);
     }
