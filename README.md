@@ -116,7 +116,6 @@ Based on resume analysis AI suggests suitable roles:
 ## Frontend
 
 - React.js
-- Tailwind CSS
 - React Router
 - Axios
 - React Hook Form
@@ -199,14 +198,14 @@ cd Ai-ScoreMyResume
 ## Install Frontend
 
 ```bash
-cd client
+cd Frontend
 npm install
 ```
 
 ## Install Backend
 
 ```bash
-cd server
+cd Backend
 npm install
 ```
 
@@ -222,8 +221,6 @@ PORT=5000
 MONGO_URI=your_mongodb_url
 
 JWT_SECRET=your_secret_key
-
-OPENAI_API_KEY=your_api_key
 
 GEMINI_API_KEY=your_api_key
 ```
@@ -241,7 +238,7 @@ npm run dev
 Frontend
 
 ```bash
-npm start
+npm run dev
 ```
 
 ---
@@ -257,7 +254,6 @@ npm start
 - Mock AI Interview
 - Voice Interview Assistant
 - Salary Prediction
-- Recruiter Dashboard
 - Resume Templates
 - Company-wise Interview Questions
 
@@ -335,27 +331,6 @@ The platform uses Large Language Models to:
 - Generate interview questions
 - Improve resume content
 
----
-
-# 📸 Screenshots
-
-Add screenshots here.
-
-```
-Landing Page
-
-Resume Upload
-
-ATS Analysis
-
-Skill Gap Report
-
-Roadmap
-
-Interview Plan
-```
-
----
 
 # 📚 Learning Outcomes
 
@@ -373,25 +348,6 @@ This project demonstrates knowledge of:
 - State Management
 - Full Stack Development
 
----
-
-# 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push the branch
-5. Open a Pull Request
-
----
-
-# 📄 License
-
-This project is licensed under the MIT License.
-
----
 
 # 👨‍💻 Author
 
