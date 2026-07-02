@@ -29,45 +29,6 @@ The goal is to bridge the gap between a candidate's current skills and the skill
 
 ---
 
-### 🎯 Skill Gap Analysis
-
-Compare resume against:
-
-- Software Engineer
-- MERN Developer
-- Frontend Developer
-- Backend Developer
-- Full Stack Developer
-- AI Engineer
-
-AI identifies:
-
-- Missing Technologies
-- Missing Frameworks
-- Missing Databases
-- Missing Tools
-- Missing Soft Skills
-
----
-
-### 🛣 Personalized Learning Roadmap
-
-Based on detected skill gaps, AI generates:
-
-- Beginner Roadmap
-- Intermediate Roadmap
-- Advanced Roadmap
-
-Roadmap includes:
-
-- Technologies to Learn
-- Project Recommendations
-- Practice Resources
-- Learning Timeline
-- Weekly Goals
-
----
-
 ### 💼 Interview Preparation Plan
 
 AI creates personalized interview plans including:
@@ -81,20 +42,6 @@ AI creates personalized interview plans including:
 - SQL Questions
 - HR Interview Questions
 - System Design (Advanced)
-
----
-
-### 📈 Resume Improvement Suggestions
-
-AI provides recommendations for:
-
-- Better Resume Summary
-- Strong Action Verbs
-- Improved Bullet Points
-- ATS Keywords
-- Missing Sections
-- Quantified Achievements
-- Project Improvements
 
 ---
 
@@ -243,22 +190,6 @@ npm run dev
 
 ---
 
-# 🚀 Future Improvements
-
-- AI Resume Builder
-- Resume Version History
-- Job Description Matching
-- Cover Letter Generator
-- LinkedIn Profile Analyzer
-- Portfolio Review
-- Mock AI Interview
-- Voice Interview Assistant
-- Salary Prediction
-- Resume Templates
-- Company-wise Interview Questions
-
----
-
 # 🎯 Example Workflow
 
 ```
@@ -298,56 +229,6 @@ Provide Resume Improvements
 ```
 
 ---
-
-# 📊 ATS Parameters
-
-The AI evaluates resumes on:
-
-- Resume Structure
-- Resume Formatting
-- Skills
-- Experience
-- Projects
-- Education
-- Certifications
-- Keywords
-- Action Verbs
-- Quantified Achievements
-- ATS Compatibility
-- Job Description Matching
-
----
-
-# 🤖 AI Capabilities
-
-The platform uses Large Language Models to:
-
-- Analyze resumes
-- Generate ATS scores
-- Detect missing technologies
-- Recommend projects
-- Suggest learning resources
-- Create personalized study plans
-- Generate interview questions
-- Improve resume content
-
-
-# 📚 Learning Outcomes
-
-This project demonstrates knowledge of:
-
-- MERN Stack
-- REST APIs
-- Authentication
-- File Uploads
-- PDF Parsing
-- MongoDB
-- Prompt Engineering
-- Generative AI
-- AI Integration
-- State Management
-- Full Stack Development
-
 
 # 👨‍💻 Author
 
