@@ -10,7 +10,7 @@ const Protected = ({children}) => {
  const {user,loading} = useAuth();
  
   if(loading){
-    return(<h1>Loading</h1>)
+    return(<main>Loading</main>)
   }
 
 
