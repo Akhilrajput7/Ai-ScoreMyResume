@@ -190,46 +190,6 @@ npm run dev
 
 ---
 
-# 🎯 Example Workflow
-
-```
-Upload Resume
-
-↓
-
-Extract Resume Content
-
-↓
-
-Analyze Resume
-
-↓
-
-Generate ATS Score
-
-↓
-
-Detect Missing Skills
-
-↓
-
-Compare with Target Role
-
-↓
-
-Generate Learning Roadmap
-
-↓
-
-Generate Interview Plan
-
-↓
-
-Provide Resume Improvements
-```
-
----
-
 # 👨‍💻 Author
 
 **Akhil Rajput**
